@@ -62,7 +62,7 @@ img{
 @media only screen and (max-width: 475px) {
     .header-1{
         font-size: 15px;
-        top:20%;
+        top:30%;
     }
     .links-container{
         padding-right: 30%;
