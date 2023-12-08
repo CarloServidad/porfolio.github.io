@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-    img{
+img{
     display: block;
     width: 100%;
     height: auto;
@@ -15,44 +15,57 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color:whitesmoke;
 }
 
-@media only screen and (max-width: 400px ) {
-
+  /* xl */
+@media only screen and (max-width: 1280px) {
     .header-1{
-        position:absolute;
-        top: 25%;
-        font-size: 20px;
-    }
-    
-}
-@media only screen and (min-width: 400px ) {
-
-    .header-1{
-        position:absolute;
-        top: 30%;
-        font-size: 30px;
-    }
-    
-}
-@media only screen and (min-width: 768px ) {
-
-    .header-1{
-        position:absolute;
-        top: 35%;
-        font-size: 30px;
-    }
-    
-}
-@media only screen and (min-width: 992px) {
-
-    .header-1{
-        position:absolute;
+        font-size: 40px;
         top: 50%;
-        font-size: 50px;
+    }
+}
+
+  /* lg */
+@media only screen and (max-width: 1024px) {
+    .header-1{
+        font-size: 35px;
+        top: 35%;
+    }
+}
+
+  /* md */
+@media only screen and (max-width: 768px) {
+    .header-1{
+        font-size: 35px;
+        top: 30%;
+    }
+    .links-container{
+        padding-right: 40%;
+    }
+}
+
+  /* sm */
+@media only screen and (max-width: 640px) {
+    .header-1{
+        font-size: 25px;
+        top: 28%;
+    }
+    .links-container{
+        padding-right: 30%;
+    }
+}
+  /* xs */
+@media only screen and (max-width: 475px) {
+    .header-1{
+        font-size: 15px;
+        top:10%;
+    }
+    .links-container{
+        padding-right: 30%;
     }
 }
 .navbar ul{
@@ -102,6 +115,7 @@ em{
 footer{
     padding: 50px 20px;
     background-color: gray;
+    width: 100%;
 }
 footer span{
     font-style: oblique;
@@ -112,10 +126,10 @@ footer span{
 .links-container ul{
     list-style-type: none;
     margin-left:32%;
-    padding: 5px 20px;
     overflow: hidden;
     margin-top: 20px;
     background-color:gray;
+    padding: 5px, 20px;
 }
 .links-container li{
     float: left;
@@ -130,5 +144,4 @@ footer span{
 }
 svg{
     padding-left: 2%;
-    width: 100%;
 }
