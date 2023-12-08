@@ -59,7 +59,7 @@ img{
     }
 }
   /* xs */
-@media only screen and (max-width: 475px) {
+/*@media only screen and (max-width: 475px) {
     .header-1{
         font-size: 15px;
         top:30%;
@@ -70,7 +70,7 @@ img{
     .navbar a{
         font-size: 10px;
     }
-}
+}*/
 .navbar ul{
     width: 100%;
     list-style-type: none;
