@@ -62,10 +62,13 @@ img{
 @media only screen and (max-width: 475px) {
     .header-1{
         font-size: 15px;
-        top:10%;
+        top:20%;
     }
     .links-container{
         padding-right: 30%;
+    }
+    .navbar a{
+        font-size: 10px;
     }
 }
 .navbar ul{
