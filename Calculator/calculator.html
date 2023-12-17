@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            calculator
+        </title>
+        <link rel="stylesheet" href="calculator.css"/>
+    </head>
+    <body>
+        <di class="wrapper">
+
+                <div class="container number-container">
+                    <input class="number" id="number" placeholder="0" readonly />
+                </div>
+
+                <div class="container button-container">
+                    <div class="button-row first-container">
+                        <input type="button" value="C" id="clear"/>
+                        <input type="button" value="DEL" id="delete-one-number"/>
+                        <input type="button" value="/" onclick="toDisplayText('/')"/>
+                    </div>
+                    <div class="button-row second-container" >
+                        <input type="button" value="7" onclick="toDisplayText('7')"/>
+                        <input type="button" value="8" onclick="toDisplayText('8')"/>
+                        <input type="button" value="9" onclick="toDisplayText('9')"/>
+                        <input type="button" value="x" onclick="toDisplayText('*')"/>
+                    </div>
+                    <div class="button-row third-container">
+                        <input type="button" value="4" onclick="toDisplayText('4')"/>
+                        <input type="button" value="5" onclick="toDisplayText('5')"/>
+                        <input type="button" value="6" onclick="toDisplayText('6')"/>
+                        <input type="button" value="+" onclick="toDisplayText('+')"/>
+                    </div>
+                    <div class="button-row fourth-container">
+                        <input type="button" value="1" onclick="toDisplayText('1')"/>
+                        <input type="button" value="2" onclick="toDisplayText('2')"/>
+                        <input type="button" value="3" onclick="toDisplayText('3')"/>
+                        <input type="button" value="-" onclick="toDisplayText('-')"/>
+                    </div>
+                    <div class="button-row five-container">
+                        <input type="button" value="00" onclick="toDisplayText('00')"/>
+                        <input type="button" value="0" onclick="toDisplayText('0')"/>
+                        <input type="button" value="." onclick="toDisplayText('.')"/>
+                        <input type="button" value="=" id="equal"/>
+                    </div>
+                </div>
+
+
+
+                
+        </div>
+        <script src="index.js"></script>
+    </body>
+    </html>
