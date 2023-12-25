@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: black;
+    }
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.time-container{
+    border: 2px solid gray;
+    width: 400px;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+.hour-container,
+.minute-container,
+.seconds-container {
+    border: 1px solid gold;
+    box-shadow: 0 0  10px yellow;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+span,p{
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
